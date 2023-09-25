@@ -1,3 +1,6 @@
+# Cristian Gómez
+# Isabella Moreno
+# Juan Rey
 # Taller-1
 #Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
