@@ -2,7 +2,7 @@
 # Isabella Moreno
 # Juan Rey
 # Taller-1
-#Puntos impares
+# Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
 x : int
 x = int(input("Ingrese un número entero "))
@@ -661,7 +661,7 @@ else:
   print("Tu país no hace parte de America, recuerda escribirlo en minusculas.")
 # Puntos pares
 # 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
-
+![](https://i.ibb.co/WxyYzDh/TALLER-PUNTO-2.jpg)
 a = float(input("Ingrese cualquier número: "))
 b = float(input("Ingrese cualquier número: "))
 c = float(input("Ingrese cualquier número: "))
@@ -681,6 +681,7 @@ elif a == c and a > b:
 elif a == b and a == c:
   print("Todos son iguales")
 # 4.Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
+![](https://i.ibb.co/N6kZ6TG/TALLER-PUNTO-4.jpg)
 a : float
 b : float
 
@@ -692,6 +693,7 @@ if a % b == 0:
 else:
     print(str(a) + " no es múltiplo de " + str(b))
 # 6.Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+![]([https://ibb.co/rfdCpFK](https://i.ibb.co/fGDhNqV/TALLER-PUNTO-6.jpg)
 
 vocales = [65,69,73,79,85,97,101,105,111,117]
 letra : str
@@ -703,7 +705,7 @@ if ord(letra) in vocales:
 else:
   print("Es una consonante")
 # 8.Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
-
+![](https://i.ibb.co/hmMf80R/TALLER-PUNTO-8.jpg)
 frecuencia_onda: float
 frecuencia_onda = float(input("Ingrese la frecuencia de onda en hz: "))
 
@@ -738,7 +740,7 @@ elif frecuencia_onda		> 30*(10**3):
 elif frecuencia_onda	< 30*(10**3):
   print("Muy Baja Frecuencia - Radio")
 # 10.Escriba un programa que dada una distancia calcule:
-
+![](https://i.ibb.co/B2n56s3/TALLER-PUNTO-10.jpg)
 #El tiempo que le tomaría a la luz recorrer la distancia.
 #El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
 #El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
