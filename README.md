@@ -9,7 +9,7 @@ x = int(input("Ingrese un número entero "))
 if x % 2 == 0:
     print("El número " + str(x) + " es par")
 else:
-    print("El número " + str(x) + " no es par")
+    print("El número " + str(x) + " no es par") ´´´
 # 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 x : int
 x = int(input("Ingrese el valor a "))
