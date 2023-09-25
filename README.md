@@ -4,6 +4,7 @@
 # Taller-1
 # Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
+Para este punto se hizo un condicional en el que si el residuo de la división entre dicho número y dos es cero, entonces se tiene que el número es par, de lo contrario es impar.
 ```x : int
 x = int(input("Ingrese un número entero "))
 if x % 2 == 0:
@@ -12,6 +13,8 @@ else:
     print("El número " + str(x) + " no es par")
 ```
 # 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+
+En este caso se hace un condicional en el que se suman tres números dados. Luego con el comando elif comprobamos si esta suma es menor, igual o mayor a un tercer número dado.
 ```
 x : int
 x = int(input("Ingrese el valor a "))
@@ -29,7 +32,9 @@ elif x + y == z:
 ```
 # 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 El promedio La mediana El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos) Ordenar los números de forma ascendente Ordenar los números de forma descendente La potencia del mayor número elevado al menor número La raíz cúbica del menor número   
+
 ```
+
 x : int
 x = int(input("Ingrese el valor 1: "))
 y : int
