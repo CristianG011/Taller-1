@@ -686,6 +686,8 @@ b = float(input("Ingrese cualquier número: "))
 c = float(input("Ingrese cualquier número: "))
 ```
 
+# 2. Aqui esta el punto 2
+
 if a > b and a > c:
     print(str(a) + " es el mayor")
 elif b > a and b > c:
@@ -700,6 +702,8 @@ elif a == c and a > b:
   print(str(a) + " es el mayor")
 elif a == b and a == c:
   print("Todos son iguales")
+
+  
 # 4.Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ![](https://i.ibb.co/N6kZ6TG/TALLER-PUNTO-4.jpg)
 a : float
