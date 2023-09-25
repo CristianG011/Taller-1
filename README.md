@@ -688,6 +688,7 @@ c = float(input("Ingrese cualquier número: "))
 ```
 
 # 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
+![](https://i.ibb.co/WxyYzDh/TALLER-PUNTO-2.jpg)
 ![](https://i.ibb.co/PzQngys/DIAGRAMA-JUANES.jpg)
 ```
 if a > b and a > c:
