@@ -1,6 +1,6 @@
 # Cristian Gómez
 # Isabella Moreno
-# Juan Rey
+# Juan Molina
 # Taller-1
 # Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
@@ -604,6 +604,7 @@ elif i<=y and i<=x and i<=n and i<=z:
 ```
 # 9.Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.  
 lang = input("Ingrese un país de America en minusculas ")
+![](https://i.ibb.co/0JZKPjt/Punto-9.png)
 ```
 if lang == "argentina":
   print("Buenos Aires.")
@@ -686,8 +687,9 @@ b = float(input("Ingrese cualquier número: "))
 c = float(input("Ingrese cualquier número: "))
 ```
 
-# 2. Aqui esta el punto 2
-
+# 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
+![](https://i.ibb.co/PzQngys/DIAGRAMA-JUANES.jpg)
+```
 if a > b and a > c:
     print(str(a) + " es el mayor")
 elif b > a and b > c:
@@ -702,7 +704,7 @@ elif a == c and a > b:
   print(str(a) + " es el mayor")
 elif a == b and a == c:
   print("Todos son iguales")
-
+```
   
 # 4.Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 ![](https://i.ibb.co/N6kZ6TG/TALLER-PUNTO-4.jpg)
@@ -718,6 +720,7 @@ else:
     print(str(a) + " no es múltiplo de " + str(b))
 # 6.Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 ![]([https://ibb.co/rfdCpFK](https://i.ibb.co/fGDhNqV/TALLER-PUNTO-6.jpg)
+![](https://i.ibb.co/vHJ9v6g/mermaid-diagram-2023-09-24-044207-1.png)
 
 vocales = [65,69,73,79,85,97,101,105,111,117]
 letra : str
