@@ -33,6 +33,12 @@ elif x + y == z:
 # 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 El promedio La mediana El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos) Ordenar los números de forma ascendente Ordenar los números de forma descendente La potencia del mayor número elevado al menor número La raíz cúbica del menor número   
 
+*En este punto la idea era crear un programa que pidiera 5 numeros y que a partir de eso por medio de unas ecuaciones nos diera como resultado valores como el promedio de los numeros seleccionados, la mediana y el promedio multiplicativo.
+
+*Ademas de esto, tambien se creo un programa que comparara todos los 5 valores y dependiendo de cual era mayor o menorr que el resto se acomodaran en 2 distintas formas: en orden ascendente y en orden descendente.
+
+*Por ultimo tambien creamos un programa que a partir de los 5 numeros seleccionados compare los 5 valores y dependiendo de cual sea el mayor y el menor se realicen las operaciones de potencia entre esos 2 numeros y tambien de obtener la raiz cubica del menor numero seleccionado.
+
 ```
 
 x : int
