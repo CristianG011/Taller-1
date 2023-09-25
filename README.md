@@ -770,6 +770,7 @@ elif frecuencia_onda	< 30*(10**3):
   print("Muy Baja Frecuencia - Radio")
 # 10.Escriba un programa que dada una distancia calcule:
 ![](https://i.ibb.co/B2n56s3/TALLER-PUNTO-10.jpg)
+```
 #El tiempo que le tomaría a la luz recorrer la distancia.
 #El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
 #El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
@@ -781,3 +782,4 @@ print("A la luz le tomaría " + str(distancia/299792458) + " segundos recorrer e
 print("Al sonido le tomaría " + str(distancia/343) + " segundos recorrer esa distancia")
 print("Al vehiculo comercial más veloz le tomaría " + str(distancia/126.9 ) + " segundos recorrer esa distancia")
 print("A Bolt le tomaría " + str(distancia/12.27 ) + " segundos recorrer esa distancia")
+```
