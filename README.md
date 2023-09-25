@@ -4,13 +4,15 @@
 # Taller-1
 # Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
-x : int
+```x : int
 x = int(input("Ingrese un número entero "))
 if x % 2 == 0:
     print("El número " + str(x) + " es par")
 else:
-    print("El número " + str(x) + " no es par") ´´´
+    print("El número " + str(x) + " no es par")
+```
 # 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+```
 x : int
 x = int(input("Ingrese el valor a "))
 y : int
@@ -24,8 +26,10 @@ elif x + y < z:
    print("La suma de " + str(x) + " y " + str(y) + " (" + str(h) + ") " " es menor a " + str(z) + ".")
 elif x + y == z:
    print("La suma de " + str(x) + " y " + str(y) + " (" + str(h) + ") " " es igual a " + str(z) + ".")
+```
 # 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 El promedio La mediana El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos) Ordenar los números de forma ascendente Ordenar los números de forma descendente La potencia del mayor número elevado al menor número La raíz cúbica del menor número   
+```
 x : int
 x = int(input("Ingrese el valor 1: "))
 y : int
@@ -49,9 +53,10 @@ median = np.median(data)
 
 print("La mediana de los datos es:", median)
 print("el promedio multiplicativo es " + str(g) + ".")
-
+```
 
 #Ordenar los valores de forma ascendente y resultados
+```
 if x < y < z < n < i:
     print("El orden ascendente es: " +str(x)+ ', ' +str(y)+ ', ' +str(z)+ ', ' +str(n)+ ', ' +str(i))
 elif x < y < z < i < n:
@@ -292,9 +297,10 @@ elif i < n < z < x < y:
     print("El orden ascendente es: " +str(i)+ ', ' +str(n)+ ', ' +str(z)+ ', ' +str(x)+ ', ' +str(y))
 elif i < n < z < y < x:
     print("El orden ascendente es: " +str(i)+ ', ' +str(n)+ ', ' +str(z)+ ', ' +str(y)+ ', ' +str(x))
-
+```
 
 #Ordenar los valores de forma descendente y resultados
+```
 if x > y > z > n > i:
     print("El orden descendente es: " +str(x)+ ', ' +str(y)+ ', ' +str(z)+ ', ' +str(n)+ ', ' +str(i))
 elif x > y > z > i > n:
@@ -564,9 +570,10 @@ elif i<x and i<y and i<z and i<n:
 resultado_potencia = (numero_mayor**numero_menor)
 #Resultado
 print("El resultado de la potencia es: "+str(resultado_potencia))
-
+```
 
 #La raiz cubica del menor numero
+```
 if x<=y and x<=z and x<=n and x<=i:
   x = float = x**(1/3)
   print("La raiz cubica es: "+str(x))
@@ -583,9 +590,10 @@ elif i<=y and i<=x and i<=n and i<=z:
   i = float = i**(1/3)
 #Resultado
   print("La raiz cubica es: "+str(i))
+```
 # 9.Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.  
 lang = input("Ingrese un país de America en minusculas ")
-
+```
 if lang == "argentina":
   print("Buenos Aires.")
 elif lang ==  " canada":
@@ -665,6 +673,7 @@ else:
 a = float(input("Ingrese cualquier número: "))
 b = float(input("Ingrese cualquier número: "))
 c = float(input("Ingrese cualquier número: "))
+```
 
 if a > b and a > c:
     print(str(a) + " es el mayor")
