@@ -4,7 +4,7 @@
 # Taller-1
 # Puntos impares
 # 3.Realice un programa que lea un número enteros y determine si es par o impar.
-Para este punto se hizo un condicional en el que si el residuo de la división entre dicho número y dos es cero, entonces se tiene que el número es par, de lo contrario es impar.
+Para este punto se hizo un condicional en el que si el residuo de la división entre dicho número y dos es cero, entonces se tiene que el número es par, de lo contrario es impar. 
 ```x : int
 x = int(input("Ingrese un número entero "))
 if x % 2 == 0:
@@ -602,7 +602,8 @@ elif i<=y and i<=x and i<=n and i<=z:
 #Resultado
   print("La raiz cubica es: "+str(i))
 ```
-# 9.Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.  
+# 9.Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado. 
+Para este punto creamos una serie con el comando "lang" el cual funciona como un "if" y un "elif" de esta manera colocamos las posibles opciones que tendría en este caso los paises de América en minusculas, posterior a eso colocamos una opción en la cual te corrige si escribiste algo mal.
 lang = input("Ingrese un país de America en minusculas ")
 ![](https://i.ibb.co/0JZKPjt/Punto-9.png)
 ```
@@ -687,7 +688,8 @@ b = float(input("Ingrese cualquier número: "))
 c = float(input("Ingrese cualquier número: "))
 ```
 
-# 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
+# 2.Realice un programa que lea tres números reales y determine cuál es el mayor. 
+Para ello a cada una de las letras le asignamos un ">" o "<" según la ocación pondría una opcion u otra.
 ![](https://i.ibb.co/WxyYzDh/TALLER-PUNTO-2.jpg)
 ![](https://i.ibb.co/PzQngys/DIAGRAMA-JUANES.jpg)
 
